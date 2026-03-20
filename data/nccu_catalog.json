@@ -1,0 +1,50 @@
+[
+  {
+    "course_id": "CSCI 3230",
+    "course_name": "Data Structures",
+    "description": "Introduction to common data structures like trees, graphs, and hash tables.",
+    "skills_covered": ["Python", "Algorithms", "Data Structures", "Java"],
+    "professor": "Dr. Smith",
+    "prerequisites": ["CSCI 2000"]
+  },
+  {
+    "course_id": "CSCI 4010",
+    "course_name": "Database Management Systems",
+    "description": "Design and implementation of relational databases, SQL queries.",
+    "skills_covered": ["SQL", "Relational Databases", "Data Modeling"],
+    "professor": "Dr. Davis",
+    "prerequisites": ["CSCI 3230"]
+  },
+  {
+    "course_id": "CSCI 4350",
+    "course_name": "Cloud Computing and Big Data",
+    "description": "Introduction to cloud platforms, distributed computing, and big data tools.",
+    "skills_covered": ["AWS", "Apache Spark", "Cloud Computing", "Hadoop"],
+    "professor": "Dr. Patel",
+    "prerequisites": ["CSCI 4010"]
+  },
+  {
+    "course_id": "CSCI 4700",
+    "course_name": "Software Engineering",
+    "description": "Software development lifecycle, agile methodologies, versions control.",
+    "skills_covered": ["Git", "Agile", "GitHub", "Jira", "CI/CD"],
+    "professor": "Dr. Johnson",
+    "prerequisites": ["CSCI 3230"]
+  },
+  {
+    "course_id": "CSCI 5200",
+    "course_name": "Machine Learning",
+    "description": "Fundamentals of machine learning, neural networks, supervised and unsupervised learning.",
+    "skills_covered": ["Python", "Machine Learning", "Scikit-Learn", "TensorFlow"],
+    "professor": "Dr. Lee",
+    "prerequisites": ["CSCI 3230", "MATH 2010"]
+  },
+  {
+    "course_id": "CSCI 4550",
+    "course_name": "Data Engineering Internals",
+    "description": "Building data pipelines, orchestrating workflows, streaming data.",
+    "skills_covered": ["Python", "Airflow", "Kafka", "Data Pipelines", "ETL"],
+    "professor": "Dr. Garcia",
+    "prerequisites": ["CSCI 4010"]
+  }
+]
