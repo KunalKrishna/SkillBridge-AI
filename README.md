@@ -6,7 +6,7 @@ This project uses a multi-agent system powered by CrewAI to automatically analyz
 
 ## Requirements
 
-- **Python Version**: Recommended `3.12` or newer (specifically tested with `Python 3.12.10`).
+- **Python Version**: Recommended `3.12` or older (specifically tested with `Python 3.12.10`).
 - **OpenAI API Key**: Used by the AI agents for analysis.
 - **GitHub Personal Access Token**: Used to fetch your public GitHub repositories.
 
@@ -21,7 +21,7 @@ It is highly recommended to use a virtual environment (`.venv`) to manage the pr
 cd path_to_project/skillbridge
 
 # Create the virtual environment using Python 3.12
-py -3.12 -m venv .venv
+py -3.12 -m venv .venv (**Note** : using CrewAI requires no newer than Python 3.12 )
 # Or using standard python
 python -m venv .venv
 
